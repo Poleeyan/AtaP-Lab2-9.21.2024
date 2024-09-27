@@ -10,15 +10,13 @@ namespace AtaP_Lab_2__9._20._2024
     {
         static void Main(string[] args)
         {
-            //task 1
-
             /*
+            //task 1
             Console.WriteLine("write an x:");
             double a = 1.65;
             double x;
             x = Convert.ToDouble(Console.ReadLine()); //задати х
             double result;
-            double ln = 2.718;
             if (x == 1.4)
             {
                 result = a * Math.Pow(x, 3) + 8 / Math.Sqrt(x);
@@ -29,16 +27,15 @@ namespace AtaP_Lab_2__9._20._2024
             }
             else
             {
-                result = ln * (x + 9 * Math.Sqrt(Math.Abs(x + a)));
+                result = Math.Log(x + 9 * Math.Sqrt(Math.Abs(x + a)));
             }
             double y;
             y = result;
             Console.WriteLine($"{x} --> {y}"); //виводити y
+            //end
             */
-
-            //task 2
-
             /*
+            //task 2
             // Введення чисел a, b, c та d
             Console.Write("Введiть число a: ");
             double a = Convert.ToDouble(Console.ReadLine());
@@ -84,10 +81,10 @@ namespace AtaP_Lab_2__9._20._2024
 
                 Console.WriteLine($"Найбiльш наближене до d число: {closest}");
             }
+            //end
             */
-
-            //task 3
-
+            /*
+            //task3
             // Використовуємо switch для обчислення відповідного значення в кілограмах
             // Введення маси та одиниці виміру
             Console.Write("Введiть масу М: ");
@@ -131,6 +128,8 @@ namespace AtaP_Lab_2__9._20._2024
 
             // Виведення результату
             Console.WriteLine($"Маса в кiлограмах: {result} кг");
+            //end
+            */
             //The End
             Console.ReadKey();
         }
