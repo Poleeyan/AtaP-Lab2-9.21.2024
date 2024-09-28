@@ -10,30 +10,28 @@ namespace AtaP_Lab_2__9._20._2024
     {
         static void Main(string[] args)
         {
-            /*
+            
             //task 1
             Console.WriteLine("write an x:");
             double a = 1.65;
             double x;
             x = Convert.ToDouble(Console.ReadLine()); //задати х
-            double result;
+            double y;
             if (x == 1.4)
             {
-                result = a * Math.Pow(x, 3) + 8 / Math.Sqrt(x);
+                y = a * Math.Pow(x, 3) + 8 / Math.Sqrt(x);
             }
             else if (x < 1.4)
             {
-                result = Math.PI * Math.Pow(x, 2) - 7 / Math.Pow(x, 2);
+                y = Math.PI * Math.Pow(x, 2) - 7 / Math.Pow(x, 2);
             }
             else
             {
-                result = Math.Log(x + 9 * Math.Sqrt(Math.Abs(x + a)));
+                y = Math.Log(x + 9 * Math.Sqrt(Math.Abs(x + a)));
             }
-            double y;
-            y = result;
             Console.WriteLine($"{x} --> {y}"); //виводити y
             //end
-            */
+            
             /*
             //task 2
             // Введення чисел a, b, c та d
